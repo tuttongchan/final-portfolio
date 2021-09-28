@@ -1,0 +1,28 @@
+nav {
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: aliceblue;
+}
+
+/* .logo-container {
+} */
+
+nav ul {
+  list-style: none;
+  display: flex;
+  /* margin-right: 5rem; */
+}
+
+nav li {
+  /* margin-top: 1.9rem; */
+  margin-right: 2.3rem;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #000;
+  /* font-weight: 300; */
+}
