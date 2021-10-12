@@ -4,7 +4,9 @@ import './contact.css';
 const Contact = () => {
   return (
     <div className="contact-container">
-      <div className="contact-heading-container">
+      .footer
+
+      {/* <div className="contact-heading-container">
         <h6 className="contact-heading">04. What's Next?</h6>
         <h4>Get In Touch!</h4>
       </div>
@@ -43,7 +45,7 @@ const Contact = () => {
           <div className="line"></div>
           <span>Copyright ©2021 Tut Tongchantra</span>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

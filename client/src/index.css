@@ -20,5 +20,6 @@ code {
 .line {
   height: .1rem;
   width: 100%;
-  background-color: black;
+  background-color: rgb(205, 213, 234);
+  /* background-color: black; */
 }
