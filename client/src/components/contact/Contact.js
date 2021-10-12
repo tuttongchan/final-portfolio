@@ -4,48 +4,51 @@ import './contact.css';
 const Contact = () => {
   return (
     <div className="contact-container">
-      .footer
-
-      {/* <div className="contact-heading-container">
-        <h6 className="contact-heading">04. What's Next?</h6>
-        <h4>Get In Touch!</h4>
-      </div>
-      <div className="contact-inputs-container">
-        <div className="contact-content-container">
+      <span className="contact-span">03. What's Next</span>
+      <h1 className="contact-heading">Get In Touch!</h1>
+      <div className="container">
+        <div className="form">
+          {/* <h2>Signup Form</h2> */}
           <form>
-            <input
-              type="text"
-              className="contact-name-input"
-              placeholder="NAME"
-            />
-            <input
-              type="text"
-              className="contact-email-input"
-              placeholder="EMAIL"
-            />
-            <textarea
-              name="message"
-              cols="30"
-              rows="10"
-              className="contact-message-input"
-              placeholder="MESSAGE"
-            ></textarea>
+            {/* <div className="inputBox">
+              <input type="text" name="firstName" placeholder="First Name..." />
+            </div> */}
+            <div className="inputBox">
+              <input type="text" name="name" placeholder="Name" />
+            </div>
+            <div className="inputBox">
+              <input type="text" name="email" placeholder="Email" />
+            </div>
+            <div className="inputBox">
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Message"
+              ></textarea>
+            </div>
+            <div className="inputBox">
+              <input type="submit" value="Submit" />
+            </div>
           </form>
         </div>
-        <div className="contact-info-container">
-          <div className="location">
-            <h6>city, state</h6>
-          </div>
-          <div className="phone">
-            <h6>111-111-1111</h6>
-          </div>
-          <div className="email">
-            <h6>hello@gmail.com</h6>
-          </div>
-          <div className="line"></div>
-          <span>Copyright ©2021 Tut Tongchantra</span>
-        </div>
-      </div> */}
+      </div>
+      <div>
+        <ul className="foot-list">
+          <li className='item-list'>
+            <i class="fas fa-map-marker-alt"></i>
+            Los Angeles County
+          </li>
+          <li className='item-list'>
+            <i class="fas fa-phone-alt"></i>
+            626-873-0910
+          </li>
+          <li className='item-list'>
+            <i class="far fa-envelope"></i> tuttenkamen@gmail.com
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };

@@ -16,12 +16,12 @@ const Projects = () => {
         </div>
         <div className="projects-desc">
           <h6 className="project-title-1">Featured Project</h6>
-          <h2 className="project-title-2">Travel Map</h2>
+          <h2 className="project-title-2">MYGARGAGE</h2>
           <p className="project-paragraph-1">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-            voluptatem quae sit ut aperiam. Officiis vel error officia culpa
-            tenetur et minima deleniti minus sapiente, esse placeat sequi saepe
-            excepturi.
+            MyGarage is a fully functional eCommerce application with PayPal
+            integration. Lately I've been into a series called Trash Talk where
+            they flip Garage Sale items for profit. I decided to make platform
+            specifically for garage items!
           </p>
           <div className="projects-list-1">
             <ul>
@@ -29,6 +29,7 @@ const Projects = () => {
               <li>Express.js</li>
               <li>MongoDB</li>
               <li>Redux</li>
+              <li>JWT</li>
               <li>PayPal API</li>
             </ul>
           </div>
@@ -41,12 +42,16 @@ const Projects = () => {
       <div className="projects-content-container">
         <div className="projects-desc">
           <h6 className="project-title-3">Featured Project</h6>
-          <h2 className="project-title-4">Travel Map</h2>
+          <h2 className="project-title-4">FlyGuys</h2>
           <p className="project-paragraph-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+            Lately I've been involved in the NFT space so I decided to make
+            something that reflected that. FlyGuys my attempt of an NFT promo
+            website. The Birds NFTs where generated from a Python Script and the
+            site was built with React.
+            {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
             voluptatem quae sit ut aperiam. Officiis vel error officia culpa
             tenetur et minima deleniti minus sapiente, esse placeat sequi saepe
-            excepturi.
+            excepturi. */}
           </p>
           <div className="projects-list-2">
             <ul>
