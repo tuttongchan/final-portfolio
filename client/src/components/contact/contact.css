@@ -8,6 +8,12 @@
   background-color: rgb(20, 31, 50);
 }
 
+.contact-container span {
+  color: rgb(93, 231, 180);
+  margin-bottom: .6rem;
+  font-weight: 600;
+}
+
 .contact-heading {
   color: rgb(205, 213, 234);
   font-size: 3rem;
@@ -166,5 +172,5 @@ form {
 .fa-phone-alt,
 .fa-envelope {
   font-size: 1.5rem;
-  margin-right: .5rem;
+  margin-right: 0.5rem;
 }

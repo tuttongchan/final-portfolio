@@ -17,10 +17,10 @@ const Header = () => {
       <div className="socials-container">
         <ul>
           <li>
-            <i class="fa-brands fa-github"></i>
+            <i className="fa-brands fa-github"></i>
           </li>
           <li>
-            <i class="fa-brands fa-linkedin-in"></i>
+            <i className="fa-brands fa-linkedin-in"></i>
           </li>
         </ul>
         <div className="vertical-line"></div>
@@ -31,7 +31,7 @@ const Header = () => {
         <div className="vertical-line"></div>
       </div>
 
-      <div class="scroll-down-container bounce">
+      <div className="scroll-down-container bounce">
         <a href="#about">
           <i className="fa fa-arrow-down fa-2x"></i>
           <span>Scroll</span>

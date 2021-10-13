@@ -7,7 +7,9 @@ const Projects = () => {
   return (
     <div className="projects-container">
       <div className="projects-heading-container">
-        <h4 className="projects-heading">03. Some Things I've Built</h4>
+        <h4 className="projects-heading">
+          <span>03.</span> Some Things I've Built
+        </h4>
         <div className="line"></div>
       </div>
       <div className="projects-content-container">
@@ -18,15 +20,15 @@ const Projects = () => {
           <h6 className="project-title-1">Featured Project</h6>
           <h2 className="project-title-2">MYGARGAGE</h2>
           <p className="project-paragraph-1">
-            MyGarage is a fully functional eCommerce application with PayPal
+            MyGarage is a Full-Stack MERN eCommerce application with PayPal
             integration. Lately I've been into a series called Trash Talk where
             they flip Garage Sale items for profit. I decided to make platform
             specifically for garage items!
           </p>
           <div className="projects-list-1">
             <ul>
-              <li>React.js</li>
-              <li>Express.js</li>
+              <li>React</li>
+              <li>Express</li>
               <li>MongoDB</li>
               <li>Redux</li>
               <li>JWT</li>
@@ -45,18 +47,15 @@ const Projects = () => {
           <h2 className="project-title-4">FlyGuys</h2>
           <p className="project-paragraph-2">
             Lately I've been involved in the NFT space so I decided to make
-            something that reflected that. FlyGuys my attempt of an NFT promo
-            website. The Birds NFTs where generated from a Python Script and the
-            site was built with React.
-            {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-            voluptatem quae sit ut aperiam. Officiis vel error officia culpa
-            tenetur et minima deleniti minus sapiente, esse placeat sequi saepe
-            excepturi. */}
+            something that reflected that. FlyGuys is my attempt of a NFT promo
+            website. The Birds NFTs were generated from Python and the site was
+            built with React.
           </p>
           <div className="projects-list-2">
             <ul>
-              <li>React.js</li>
+              <li>React</li>
               <li>Python</li>
+              <li>CSS</li>
             </ul>
           </div>
           <div>
