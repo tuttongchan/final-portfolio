@@ -5,7 +5,7 @@ import Project2 from '../../images/project-2.png';
 
 const Projects = () => {
   return (
-    <div className="projects-container" id='projects'>
+    <div className="projects-container" id="projects">
       <div className="projects-heading-container">
         <h4 className="projects-heading">
           <span>02.</span> Some Projects I've Built
@@ -36,8 +36,20 @@ const Projects = () => {
             </ul>
           </div>
           <div className="project-icons-container">
-            <i className="fab fa-github"></i>
-            <i className="fas fa-desktop ml-1"></i>
+            <a
+              href="https://github.com/tuttongchan/myShop"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <i className="fab fa-github"></i>
+            </a>
+            <a
+              href="https://my-top-shop.herokuapp.com/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <i className="fas fa-desktop ml-1"></i>
+            </a>
           </div>
         </div>
         <div className="projects-picture-query">
@@ -62,8 +74,20 @@ const Projects = () => {
             </ul>
           </div>
           <div>
-            <i className="fab fa-github mr-1"></i>
-            <i className="fas fa-desktop"></i>
+            <a
+              href="https://github.com/tuttongchan/flyGuys"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <i className="fab fa-github mr-1"></i>
+            </a>
+            <a
+              href="https://flyguys.netlify.app/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <i className="fas fa-desktop"></i>
+            </a>
           </div>
         </div>
         <div className="projects-picture-2">

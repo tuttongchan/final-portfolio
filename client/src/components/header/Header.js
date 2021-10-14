@@ -17,10 +17,22 @@ const Header = () => {
       <div className="socials-container">
         <ul>
           <li>
-            <i className="fa-brands fa-github"></i>
+            <a
+              href="https://github.com/tuttongchan"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa-brands fa-github"></i>
+            </a>
           </li>
           <li>
-            <i className="fa-brands fa-linkedin-in"></i>
+            <a
+              href="https://www.linkedin.com/in/tut-tongchantra-36b50a1b6/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa-brands fa-linkedin-in"></i>
+            </a>
           </li>
         </ul>
         <div className="vertical-line"></div>
