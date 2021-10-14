@@ -1,16 +1,16 @@
 nav {
   height: 12vh;
   width: 100vw;
-  /* width: 100vw; */
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   padding: 2rem;
   background-color: rgb(20, 31, 50);
 }
 
-/* .logo-container {
-} */
+.logo-container {
+  color: rgb(20, 31, 50);
+}
 
 .nav-items-container ul {
   list-style: none;
@@ -43,21 +43,22 @@ nav {
 
 .nav-items-container li a {
   text-decoration: none;
-  /* color: #000; */
   color: rgb(205, 213, 234);
   font-weight: 600;
   margin-left: 0.3rem;
 }
 
+.hamburger-container {
+  display: none;
+}
+
+/* --- Media Queries --- */
 @media only screen and (max-width: 700px) {
   .nav-items-container {
     display: none;
   }
-}
 
-/* --- Hamburger Menu --- */
-.hamburger-container {
-  position: absolute;
-  top: 30;
-  right: 35;
+  .hamburger-container {
+    display: block;
+  }
 }

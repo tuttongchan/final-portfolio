@@ -25,7 +25,6 @@ header {
   width: 60%;
   font-size: 1.2rem;
   font-weight: 450;
-  /* line-height: 3rem; */
   line-height: 2.8rem;
 }
 
@@ -133,6 +132,7 @@ i {
   }
 }
 
+/* --- Media Queries --- */
 @media only screen and (max-width: 1150px) {
   header {
     height: 88vh;
@@ -159,8 +159,6 @@ i {
 @media only screen and (max-width: 700px) {
   header {
     height: 88vh;
-    /* padding: 6rem 9rem; */
-    /* padding: 4rem 7rem; */
     padding: 2.5rem 5rem;
     background-color: rgb(20, 31, 50);
   }
@@ -172,7 +170,6 @@ i {
 
   .header-heading-4 {
     font-size: 1rem;
-    /* font-size: 1.3rem; */
   }
 
   .socials-container,
@@ -180,17 +177,15 @@ i {
     display: none;
   }
 
-  /* .scroll-down-container {
+  .scroll-down-container {
     display: none;
-  } */
+  }
 }
 
 @media only screen and (max-width: 500px) {
   header {
     height: 88vh;
-    /* padding: 6rem 9rem; */
-    /* padding: 4rem 7rem; */
-    padding: 3rem 5rem;
+    padding: 2rem 5rem;
     background-color: rgb(20, 31, 50);
   }
 
@@ -201,7 +196,7 @@ i {
 
   .header-heading-4 {
     font-size: 1rem;
-    /* font-size: 1.3rem; */
+    line-height: 2rem;
   }
 
   .scroll-down-container {

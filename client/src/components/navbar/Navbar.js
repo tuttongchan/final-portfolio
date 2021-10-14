@@ -5,7 +5,7 @@ import Hamburger from '../hamburger/Hamburger';
 const Navbar = () => {
   return (
     <nav>
-      <div className="logo-container">fffff</div>
+      {/* <div className="logo-container">fffff</div> */}
       <div className="nav-items-container">
         <ul>
           <li>
@@ -29,9 +29,9 @@ const Navbar = () => {
       </div>
 
       {/* --- Hamburger Menu --- */}
-      {/* <div className="hamburger-container"> */}
-      <Hamburger />
-      {/* </div> */}
+      <div className="hamburger-container">
+        <Hamburger />
+      </div>
     </nav>
   );
 };

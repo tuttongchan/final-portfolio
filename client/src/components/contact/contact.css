@@ -3,14 +3,13 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* padding: 2rem; */
   padding: 2rem 0 4rem 0;
   background-color: rgb(20, 31, 50);
 }
 
 .contact-container span {
   color: rgb(93, 231, 180);
-  margin-bottom: .6rem;
+  margin-bottom: 0.6rem;
   font-weight: 600;
 }
 
@@ -173,4 +172,29 @@ form {
 .fa-envelope {
   font-size: 1.5rem;
   margin-right: 0.5rem;
+}
+
+/* --- Media Query --- */
+@media only screen and (max-width: 900px) {
+  .container {
+    width: 300px;
+  }
+
+  .foot-list-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .foot-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .item-list {
+    margin-right: 0;
+    margin-bottom: 0.7rem;
+  }
 }

@@ -48,7 +48,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
-      <div>
+      <div foot-list-container>
         <ul className="foot-list">
           <li className="item-list">
             <i className="fas fa-map-marker-alt"></i>

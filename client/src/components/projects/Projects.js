@@ -12,8 +12,8 @@ const Projects = () => {
         </h4>
         <div className="line"></div>
       </div>
-      <div className="projects-content-container">
-        <div className="projects-picture">
+      <div className="projects-grid-1">
+        <div className="projects-picture-1">
           <img src={Project1} alt="Project 1" />
         </div>
         <div className="projects-desc">
@@ -40,8 +40,11 @@ const Projects = () => {
             <i className="fas fa-desktop ml-1"></i>
           </div>
         </div>
+        <div className="projects-picture-query">
+          <img src={Project1} alt="Project 1" />
+        </div>
       </div>
-      <div className="projects-content-container">
+      <div className="projects-grid-2">
         <div className="projects-desc">
           <h6 className="project-title-3">Featured Project</h6>
           <h2 className="project-title-4">FlyGuys</h2>
@@ -63,30 +66,10 @@ const Projects = () => {
             <i className="fas fa-desktop"></i>
           </div>
         </div>
-        <div className="projects-picture">
+        <div className="projects-picture-2">
           <img src={Project2} alt="Project 2" />
         </div>
       </div>
-      {/* <div className="projects-content-container">
-        <div className="projects-picture"></div>
-        <div className="projects-desc">
-          <h6>Featured Project</h6>
-          <h2>Travel Map</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-            voluptatem quae sit ut aperiam. Officiis vel error officia culpa
-            tenetur et minima deleniti minus sapiente, esse placeat sequi saepe
-            excepturi.
-          </p>
-          <ul>
-            <li>React.js</li>
-            <li>Express.js</li>
-            <li>MongoDB</li>
-            <li>Redux</li>
-            <li>Socket.io</li>
-          </ul>
-        </div>
-      </div> */}
     </div>
   );
 };
