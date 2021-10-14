@@ -1,5 +1,6 @@
 import React from 'react';
 import './navbar.css';
+import Hamburger from '../hamburger/Hamburger';
 
 const Navbar = () => {
   return (
@@ -20,10 +21,17 @@ const Navbar = () => {
             <a>Contact</a>
           </li>
           <li>
-            <a style={{ marginLeft: '0', color: 'rgb(93, 231, 180)'}}>Resume</a>
+            <a style={{ marginLeft: '0', color: 'rgb(93, 231, 180)' }}>
+              Resume
+            </a>
           </li>
         </ul>
       </div>
+
+      {/* --- Hamburger Menu --- */}
+      {/* <div className="hamburger-container"> */}
+      <Hamburger />
+      {/* </div> */}
     </nav>
   );
 };

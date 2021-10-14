@@ -11,7 +11,7 @@ const Header = () => {
         <h6 className="header-heading-4">
           I’m a software engineer specializing in building (and occasionally
           designing) exceptional digital experiences. Currently, I’m focused on
-          building accessible human-centered products at <span>Onntek</span>
+          building accessible human-centered products at <span>Onntek.</span>
         </h6>
       </div>
       <div className="socials-container">

@@ -1,5 +1,7 @@
 nav {
   height: 12vh;
+  width: 100vw;
+  /* width: 100vw; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -10,18 +12,18 @@ nav {
 /* .logo-container {
 } */
 
-nav ul {
+.nav-items-container ul {
   list-style: none;
   display: flex;
   align-items: center;
 }
 
-nav ul li {
+.nav-items-container ul li {
   margin-right: 2.3rem;
   cursor: pointer;
 }
 
-nav ul li:last-child {
+.nav-items-container ul li:last-child {
   border: 1px solid #5de7b4;
   background-color: rgb(20, 31, 50);
   padding: 0.5rem 1rem;
@@ -31,18 +33,31 @@ nav ul li:last-child {
   transition: all 0.3s;
 }
 
-nav ul li:last-child:hover {
+.nav-items-container ul li:last-child:hover {
   filter: brightness(200%);
 }
 
-nav li span {
+.nav-items-container li span {
   color: rgb(93, 231, 180);
 }
 
-nav li a {
+.nav-items-container li a {
   text-decoration: none;
-  color: #000;
+  /* color: #000; */
   color: rgb(205, 213, 234);
   font-weight: 600;
   margin-left: 0.3rem;
+}
+
+@media only screen and (max-width: 700px) {
+  .nav-items-container {
+    display: none;
+  }
+}
+
+/* --- Hamburger Menu --- */
+.hamburger-container {
+  position: absolute;
+  top: 30;
+  right: 35;
 }
