@@ -5,10 +5,10 @@ import Project2 from '../../images/project-2.png';
 
 const Projects = () => {
   return (
-    <div className="projects-container">
+    <div className="projects-container" id='projects'>
       <div className="projects-heading-container">
         <h4 className="projects-heading">
-          <span>03.</span> Some Things I've Built
+          <span>02.</span> Some Projects I've Built
         </h4>
         <div className="line"></div>
       </div>

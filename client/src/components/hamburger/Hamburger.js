@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link as RouterLink } from 'react-router-dom';
+import Resume from '../../resources/TutsOfficialResume.pdf';
 import {
   Box,
   Button,
@@ -43,28 +45,70 @@ const Hamburger = () => {
               cursor="pointer"
               onClick={onClose}
             >
-              <i className="fas fa-times">{/* <DrawerCloseButton /> */}</i>
+              <i className="fas fa-times"></i>
             </Box>
             <Box display="flex" justifyContent="center" alignItems="center">
               <UnorderedList listStyleType="none">
-                <ListItem mb="1.5rem">
-                  <Link color="rgb(93, 231, 180)">01.</Link>
-                  <Link fontWeight="600" ml=".3rem" color="rgb(205, 213, 234)">
-                    About
-                  </Link>
-                </ListItem>
-                <ListItem mb="1.5rem">
-                  <Link color="rgb(93, 231, 180)">02.</Link>
-                  <Link fontWeight="600" ml=".3rem" color="rgb(205, 213, 234)">
-                    Experience
-                  </Link>
-                </ListItem>
-                <ListItem mb="1.5rem">
-                  <Link color="rgb(93, 231, 180)">03.</Link>
-                  <Link fontWeight="600" ml=".3rem" color="rgb(205, 213, 234)">
-                    Contact
-                  </Link>
-                </ListItem>
+                <RouterLink to="/" style={{ textDecoration: 'none' }}>
+                  <ListItem mb="1.5rem" cursor="pointer">
+                    <Link color="rgb(93, 231, 180)" textDecoration="none">
+                      01.
+                    </Link>
+                    <Link
+                      href="#nav"
+                      fontWeight="600"
+                      ml=".3rem"
+                      color="rgb(205, 213, 234)"
+                      textDecoration="none"
+                      onClick={onClose}
+                    >
+                      Home
+                    </Link>
+                  </ListItem>
+                </RouterLink>
+                <RouterLink to="projects" style={{ textDecoration: 'none' }}>
+                  <ListItem mb="1.5rem" cursor="pointer">
+                    <Link
+                      href="#projects"
+                      color="rgb(93, 231, 180)"
+                      textDecoration="none"
+                    >
+                      02.
+                    </Link>
+                    <Link
+                      href="#projects"
+                      fontWeight="600"
+                      ml=".3rem"
+                      color="rgb(205, 213, 234)"
+                      cursor="pointer"
+                      textDecoration="none"
+                      onClick={onClose}
+                    >
+                      Projects
+                    </Link>
+                  </ListItem>
+                </RouterLink>
+                <RouterLink to="contact" style={{ textDecoration: 'none' }}>
+                  <ListItem mb="1.5rem" cursor="pointer">
+                    <Link
+                      href="#contact"
+                      color="rgb(93, 231, 180)"
+                      textDecoration="none"
+                    >
+                      03.
+                    </Link>
+                    <Link
+                      href="#contact"
+                      fontWeight="600"
+                      ml=".3rem"
+                      color="rgb(205, 213, 234)"
+                      textDecoration="none"
+                      onClick={onClose}
+                    >
+                      Contact
+                    </Link>
+                  </ListItem>
+                </RouterLink>
                 <ListItem
                   display="flex"
                   alignItems="center"
@@ -78,15 +122,18 @@ const Hamburger = () => {
                   transition="all .3s"
                   _hover={{ filter: 'brightness(200%)' }}
                 >
-                  <Link color="rgb(93, 231, 180)">Resume</Link>
+                  <Link
+                    color="rgb(93, 231, 180)"
+                    textDecoration="none"
+                    target="_blank"
+                    href={Resume}
+                  >
+                    Resume
+                  </Link>
                 </ListItem>
               </UnorderedList>
             </Box>
           </DrawerHeader>
-
-          {/* <DrawerBody bg="white">
-            <Input placeholder="Type here..." />
-          </DrawerBody> */}
         </DrawerContent>
       </Drawer>
     </>

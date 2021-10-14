@@ -1,17 +1,21 @@
 import './index.css';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './components/navbar/Navbar';
-import Header from './components/header/Header';
+import Home from './pages/Home';
 import Projects from './components/projects/Projects';
 import Contact from './components/contact/Contact';
-import Hamburger from './components/hamburger/Hamburger';
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <Header />
-      <Projects />
-      <Contact />
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/contact" component={Contact} />
+        </Switch>
+      </Router>
     </div>
   );
 }
