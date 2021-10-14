@@ -50,7 +50,7 @@ const Hamburger = () => {
             <Box display="flex" justifyContent="center" alignItems="center">
               <UnorderedList listStyleType="none">
                 <RouterLink to="/" style={{ textDecoration: 'none' }}>
-                  <ListItem mb="1.5rem" cursor="pointer">
+                  <ListItem mb="1.5rem" cursor="pointer" onClick={onClose}>
                     <Link color="rgb(93, 231, 180)" textDecoration="none">
                       01.
                     </Link>
@@ -60,14 +60,13 @@ const Hamburger = () => {
                       ml=".3rem"
                       color="rgb(205, 213, 234)"
                       textDecoration="none"
-                      onClick={onClose}
                     >
                       Home
                     </Link>
                   </ListItem>
                 </RouterLink>
                 <RouterLink to="projects" style={{ textDecoration: 'none' }}>
-                  <ListItem mb="1.5rem" cursor="pointer">
+                  <ListItem mb="1.5rem" cursor="pointer" onClick={onClose}>
                     <Link
                       href="#projects"
                       color="rgb(93, 231, 180)"
@@ -82,14 +81,13 @@ const Hamburger = () => {
                       color="rgb(205, 213, 234)"
                       cursor="pointer"
                       textDecoration="none"
-                      onClick={onClose}
                     >
                       Projects
                     </Link>
                   </ListItem>
                 </RouterLink>
                 <RouterLink to="contact" style={{ textDecoration: 'none' }}>
-                  <ListItem mb="1.5rem" cursor="pointer">
+                  <ListItem mb="1.5rem" cursor="pointer" onClick={onClose}>
                     <Link
                       href="#contact"
                       color="rgb(93, 231, 180)"
@@ -103,7 +101,6 @@ const Hamburger = () => {
                       ml=".3rem"
                       color="rgb(205, 213, 234)"
                       textDecoration="none"
-                      onClick={onClose}
                     >
                       Contact
                     </Link>
