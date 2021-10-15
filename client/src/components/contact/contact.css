@@ -121,6 +121,17 @@
   color: #fff;
 }
 
+.error-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-message {
+  font-size: 1rem;
+  color: #42ba96;
+}
+
 .foot-list {
   display: flex;
   justify-content: space-evenly;

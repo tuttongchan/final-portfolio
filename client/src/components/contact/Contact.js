@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './contact.css';
-import emailjs from 'emailjs-com'
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
+  const [error, setError] = useState(false);
+
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
       .sendForm(
         'service_fr1qs3k',
@@ -15,6 +16,7 @@ const Contact = () => {
       )
       .then((res) => {
         console.log(res);
+        setError(true);
       })
       .catch((err) => {
         console.log(err);
@@ -22,7 +24,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact-container" id='contact'>
+    <div className="contact-container" id="contact">
       <span className="contact-span">03. What's Next?</span>
       <h1 className="contact-heading">Get In Touch!</h1>
       <div className="container">
@@ -44,6 +46,11 @@ const Contact = () => {
             </div>
             <div className="inputBox">
               <input type="submit" value="Submit" />
+            </div>
+            <div className="error-container">
+              {error ? (
+                <h1 className="error-message">Email was sent!</h1>
+              ) : null}
             </div>
           </form>
         </div>
