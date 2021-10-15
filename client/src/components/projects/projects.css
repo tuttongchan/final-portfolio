@@ -7,10 +7,8 @@
   margin-left: 1rem;
 }
 /* --------------- */
-
 .projects-container {
-  /* height: 100vh; */
-  height: 100%;
+  /* height: 100%; */
   padding: 2rem 8rem;
   background-color: rgb(20, 31, 50);
 }
@@ -129,12 +127,6 @@
 }
 
 /* --- Media Queries --- */
-@media only screen and (max-width: 600px) {
-  .projects-container {
-    padding: 2rem 2rem;
-  }
-}
-
 @media only screen and (max-width: 900px) {
   .projects-container {
     padding: 2rem 5rem;
@@ -182,5 +174,15 @@
 
   .projects-picture-query img {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .projects-container {
+    padding: 2rem 2rem;
+  }
+
+  .project-title-2 {
+    font-size: 2.4rem;
   }
 }

@@ -185,7 +185,8 @@ i {
 @media only screen and (max-width: 500px) {
   header {
     height: 88vh;
-    padding: 2rem 5rem;
+    /* padding: 2rem 5rem; */
+    padding: 1rem 2rem;
     background-color: rgb(20, 31, 50);
   }
 
