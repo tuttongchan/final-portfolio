@@ -47,12 +47,12 @@ const Header = () => {
         <div className="vertical-line"></div>
       </div>
 
-      {/* <div className="scroll-down-container bounce">
+      <div className="scroll-down-container bounce">
         <a href="#about">
           <i className="fa fa-arrow-down fa-2x"></i>
           <span>Scroll</span>
         </a>
-      </div> */}
+      </div>
     </header>
   );
 };

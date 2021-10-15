@@ -1,7 +1,7 @@
 header {
-  /* height: 88vh; */
-  /* padding: 6rem 9rem; */
-  padding: 6rem 9rem 9rem 9rem;
+  height: 88vh;
+  padding: 6rem 9rem;
+  /* padding: 6rem 9rem 9rem 9rem; */
   background-color: rgb(20, 31, 50);
 }
 
@@ -111,8 +111,8 @@ i {
 .scroll-down-container {
   position: absolute;
   left: 50%;
-  bottom: 18%;
-  /* bottom: 4%; */
+  bottom: 4%;
+  /* bottom: 18%; */
 }
 
 .scroll-down-container a {
