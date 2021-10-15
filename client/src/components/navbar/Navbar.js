@@ -5,15 +5,11 @@ import Resume from '../../resources/TutsOfficialResume.pdf';
 import Hamburger from '../hamburger/Hamburger';
 
 const Navbar = () => {
-  const refreshPage = () => {
-    window.location.reload();
-  };
-
   return (
     <nav id="nav">
       <div className="nav-items-container">
         <ul>
-          <li onClick={refreshPage}>
+          <li>
             <Link to="/">
               <span>01.</span>
               <a>Home</a>

@@ -1,6 +1,7 @@
 header {
-  height: 88vh;
-  padding: 6rem 9rem;
+  /* height: 88vh; */
+  /* padding: 6rem 9rem; */
+  padding: 6rem 9rem 9rem 9rem;
   background-color: rgb(20, 31, 50);
 }
 
@@ -26,10 +27,28 @@ header {
   font-size: 1.2rem;
   font-weight: 450;
   line-height: 2.8rem;
+  margin-bottom: 2rem;
 }
 
 .header-heading-4 span {
   color: rgb(93, 231, 180);
+}
+
+.header-contact-button {
+  /* padding: 1rem 4rem; */
+  padding: .9rem 3rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 3px;
+  border: 1px solid rgb(93, 231, 180);
+  color: rgb(93, 231, 180);
+  background-color: rgb(20, 31, 50);
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.header-contact-button:hover {
+  filter: brightness(200%);
 }
 
 h2 {
@@ -92,7 +111,8 @@ i {
 .scroll-down-container {
   position: absolute;
   left: 50%;
-  bottom: 4%;
+  bottom: 18%;
+  /* bottom: 4%; */
 }
 
 .scroll-down-container a {
@@ -185,8 +205,7 @@ i {
 @media only screen and (max-width: 500px) {
   header {
     height: 88vh;
-    /* padding: 2rem 5rem; */
-    padding: 1rem 2rem;
+    padding: 1rem 3rem;
     background-color: rgb(20, 31, 50);
   }
 

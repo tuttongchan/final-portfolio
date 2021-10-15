@@ -1,5 +1,6 @@
 import React from 'react';
 import './header.css';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -13,6 +14,9 @@ const Header = () => {
           designing) exceptional digital experiences. Currently, I’m focused on
           building accessible human-centered products at <span>Onntek.</span>
         </h6>
+        <Link to="contact">
+          <button className="header-contact-button">Get in Touch 👋</button>
+        </Link>
       </div>
       <div className="socials-container">
         <ul>
@@ -43,12 +47,12 @@ const Header = () => {
         <div className="vertical-line"></div>
       </div>
 
-      <div className="scroll-down-container bounce">
+      {/* <div className="scroll-down-container bounce">
         <a href="#about">
           <i className="fa fa-arrow-down fa-2x"></i>
           <span>Scroll</span>
         </a>
-      </div>
+      </div> */}
     </header>
   );
 };
