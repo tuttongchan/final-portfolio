@@ -84,7 +84,7 @@ const Projects = () => {
               <i className="fab fa-github mr-1"></i>
             </a>
             <a
-              href="https://mooglefinder.netlify.app/search"
+              href="https://mooglefinder.netlify.app/"
               rel="noreferrer"
               target="_blank"
             >
