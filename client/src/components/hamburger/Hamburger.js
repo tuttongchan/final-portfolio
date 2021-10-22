@@ -106,28 +106,28 @@ const Hamburger = () => {
                     </Link>
                   </ListItem>
                 </RouterLink>
-                <ListItem
-                  display="flex"
-                  alignItems="center"
-                  justifyContent="center"
-                  textAlign="center"
-                  padding=".7rem"
-                  bg="rgb(29, 39, 66)"
-                  border="1px solid rgb(93, 231, 180)"
-                  borderRadius="2px"
-                  cursor="pointer"
-                  transition="all .3s"
-                  _hover={{ filter: 'brightness(200%)' }}
+                <Link
+                  color="rgb(93, 231, 180)"
+                  textDecoration="none"
+                  target="_blank"
+                  href={Resume}
                 >
-                  <Link
-                    color="rgb(93, 231, 180)"
-                    textDecoration="none"
-                    target="_blank"
-                    href={Resume}
+                  <ListItem
+                    display="flex"
+                    alignItems="center"
+                    justifyContent="center"
+                    textAlign="center"
+                    padding=".7rem"
+                    bg="rgb(29, 39, 66)"
+                    border="1px solid rgb(93, 231, 180)"
+                    borderRadius="2px"
+                    cursor="pointer"
+                    transition="all .3s"
+                    _hover={{ filter: 'brightness(200%)' }}
                   >
                     Resume
-                  </Link>
-                </ListItem>
+                  </ListItem>
+                </Link>
               </UnorderedList>
             </Box>
           </DrawerHeader>
