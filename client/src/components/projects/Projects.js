@@ -26,7 +26,7 @@ const Projects = () => {
             MyGarage is a Full-Stack MERN eCommerce application with PayPal
             integration. Lately I've been into a series called Trash Talk where
             they flip Garage Sale items for profit. I decided to make platform
-            specifically for garage items!
+            specifically for garage items. Use the Guest Sign-in for ease!
           </p>
           <div className="projects-list-1">
             <ul>
