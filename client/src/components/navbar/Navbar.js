@@ -27,16 +27,14 @@ const Navbar = () => {
               <a href="#contact">Contact</a>
             </Link>
           </li>
-          <li>
-            <a
-              style={{ marginLeft: '0', color: 'rgb(93, 231, 180)' }}
-              target="_blank"
-              rel="noreferrer"
-              href={Resume}
-            >
-              Resume
-            </a>
-          </li>
+          <a
+            style={{ marginLeft: '0', color: 'rgb(93, 231, 180)', textDecoration: 'none' }}
+            target="_blank"
+            rel="noreferrer"
+            href={Resume}
+          >
+            <li>Resume</li>
+          </a>
         </ul>
       </div>
 
