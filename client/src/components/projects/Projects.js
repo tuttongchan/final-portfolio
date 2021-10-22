@@ -65,12 +65,7 @@ const Projects = () => {
           <h6 className="project-title-3">Featured Project</h6>
           <h2 className="project-title-4">Moogle</h2>
           <p className="project-paragraph-2">
-            Lately I've been involved in the NFT space so I decided to make
-            something that reflected that. FlyGuys is my attempt of a NFT promo
-            website. The Birds NFTs were generated from Python and the site was
-            built with React.
-
-            Moogle is my spin of a Google search. Has all the same functionality plus a dark mode.
+            Moogle is my spin of a Google search. Able to search general topics as well as news, images, and videos. Has all the same functionality plus a dark mode.
           </p>
           <div className="projects-list-2">
             <ul>
