@@ -7,6 +7,7 @@ import Moogle from '../../images/moogle.png';
 import BugBud from '../../images/bugbud.png';
 
 const Projects = () => {
+  // Test Text
   return (
     <div className="projects-container" id="projects">
       <div className="projects-heading-container">
