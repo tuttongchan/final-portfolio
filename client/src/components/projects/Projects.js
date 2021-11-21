@@ -5,9 +5,10 @@ import Project2 from '../../images/project-2.png';
 import Project4 from '../../images/project-4.png';
 import Moogle from '../../images/moogle.png';
 import BugBud from '../../images/bugbud.png';
+import Nature from '../../images/nature.png';
+import Gym from '../../images/gym.png';
 
 const Projects = () => {
-  // Test Text
   return (
     <div className="projects-container" id="projects">
       <div className="projects-heading-container">
@@ -107,34 +108,33 @@ const Projects = () => {
 
       <div className="projects-grid-1">
         <div className="projects-picture-1">
-          <img src={Project2} alt="Project 1" />
+          <img src={Gym} alt="Project 1" />
         </div>
         <div className="projects-desc">
           <h6 className="project-title-1">Featured Project</h6>
-          <h2 className="project-title-2">FlyGuys</h2>
+          <h2 className="project-title-2">Don Fitness</h2>
           <p className="project-paragraph-1">
-            Lately I've been involved in the NFT space so I decided to make
-            something that reflected that. FlyGuys is my attempt of a NFT promo
-            website. The Birds NFTs were generated from Python and the site was
-            built with React.
+            Don Fitness is my attempt of a Gym landing page. The animations were
+            created from GSAP.
           </p>
           <div className="projects-list-1">
             <ul>
-              <li>React</li>
-              <li>Python</li>
+              <li>HTML</li>
               <li>CSS</li>
+              <li>Javascript</li>
+              <li>GSAP</li>
             </ul>
           </div>
           <div className="project-icons-container">
             <a
-              href="https://github.com/tuttongchan/flyGuys"
+              href="https://github.com/tuttongchan/don-fitness"
               rel="noreferrer"
               target="_blank"
             >
               <i className="fab fa-github"></i>
             </a>
             <a
-              href="https://flyguys.netlify.app/"
+              href="https://donfitness.netlify.app/"
               rel="noreferrer"
               target="_blank"
             >
@@ -143,37 +143,35 @@ const Projects = () => {
           </div>
         </div>
         <div className="projects-picture-query">
-          <img src={Project2} alt="Project 1" />
+          <img src={Gym} alt="Project 1" />
         </div>
       </div>
 
       <div className="projects-grid-2">
         <div className="projects-desc">
           <h6 className="project-title-3">Featured Project</h6>
-          <h2 className="project-title-4">Moogle</h2>
+          <h2 className="project-title-4">Outdoors</h2>
           <p className="project-paragraph-2">
-            Moogle is my spin of a Google search. Able to search general topics
-            as well as news, images, and videos. Has all the same functionality
-            plus a dark mode.
+            Outdoors is an informative landing page for Nature tours. The
+            animations were created purely from CSS and SASS.
           </p>
           <div className="projects-list-2">
             <ul>
-              <li>React</li>
-              <li>Tailwind CSS</li>
-              <li>Material UI</li>
-              <li>Rapid API</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>SASS</li>
             </ul>
           </div>
           <div>
             <a
-              href="https://github.com/tuttongchan/moogle"
+              href="https://github.com/tuttongchan/nature-landing"
               rel="noreferrer"
               target="_blank"
             >
               <i className="fab fa-github mr-1"></i>
             </a>
             <a
-              href="https://mooglefinder.netlify.app/"
+              href="https://outdoorslanding.netlify.app/"
               rel="noreferrer"
               target="_blank"
             >
@@ -182,11 +180,11 @@ const Projects = () => {
           </div>
         </div>
         <div className="projects-picture-2">
-          <img src={Moogle} alt="Project 2" />
+          <img src={Nature} alt="Project 2" />
         </div>
       </div>
 
-      <div className="projects-grid-1">
+      {/* <div className="projects-grid-1">
         <div className="projects-picture-1">
           <img src={Project4} alt="Project 1" />
         </div>
@@ -226,7 +224,7 @@ const Projects = () => {
         <div className="projects-picture-query">
           <img src={Project4} alt="Project 1" />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
