@@ -123,7 +123,7 @@ const Hamburger = () => {
                     borderRadius="2px"
                     cursor="pointer"
                     transition="all .3s"
-                    _hover={{ filter: 'brightness(200%)' }}
+                    _hover={{ filter: 'brightness(150%)' }}
                   >
                     Resume
                   </ListItem>

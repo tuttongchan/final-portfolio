@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './projects.css';
 import Project1 from '../../images/project-1.png';
-import Project2 from '../../images/project-2.png';
-import Project4 from '../../images/project-4.png';
-import Moogle from '../../images/moogle.png';
+// import Project2 from '../../images/project-2.png';
+// import Project4 from '../../images/project-4.png';
+// import Moogle from '../../images/moogle.png';
 import BugBud from '../../images/bugbud.png';
 import Nature from '../../images/nature.png';
 import Gym from '../../images/gym.png';

@@ -33,7 +33,7 @@ nav {
 }
 
 .nav-items-container ul li:last-child:hover {
-  filter: brightness(200%);
+  filter: brightness(150%);
 }
 
 .nav-items-container li span {
